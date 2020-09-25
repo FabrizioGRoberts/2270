@@ -5,6 +5,10 @@
 #include <string>
 #include <sstream>
 
+//This program combs through text files and keeps track the number of times each unique word is used while ignoring the 50 most common words.
+//By calculating probability for each word, it will print the 10 most common words from the Nth most common (user input).
+//Command line order: ./a.out N book.txt ignoreWords.txt
+
 using namespace std;
 
 struct wordRecord
